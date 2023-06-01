@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">calculator</string>
+    <string name="icon_calculator">Calculator</string>
+    <string name="placeholder_number1">Number 1</string>
+    <string name="placeholder_number2">Number 2</string>
+    <string name="result">Result: </string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">x</string>
+    <string name="division">\</string>
+</resources>
