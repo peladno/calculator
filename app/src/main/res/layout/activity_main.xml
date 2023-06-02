@@ -2,13 +2,20 @@
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/button_plus"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:text="Cerrar" />
     <ImageView
         android:id="@+id/calculator_icon"
         android:layout_width="100dp"
@@ -42,7 +49,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:text="@string/result"
+
         android:textAlignment="viewStart"
         android:textSize="18sp" />
 
@@ -58,6 +65,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/button_plus"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="@dimen/button_size"
                 android:layout_height="@dimen/button_size"
@@ -110,6 +118,12 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_size_large" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 
